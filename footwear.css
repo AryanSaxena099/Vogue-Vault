@@ -1,0 +1,162 @@
+.logo{
+    background-image: url(VogueVault.jpg);
+    background-size: cover;
+    width: 158px;
+    height: 120px;
+    margin-right: 100px;
+}
+.nav{
+    display: flex;
+    height: 125px;
+    background-color: black;
+    
+}
+.navmargin{
+    margin-left: 80px;
+}
+.category
+{
+    display:flex;
+    align-items: center;
+    
+}
+.men ,.women,.children ,.signin{
+    font-family:  'Lucida Sans Unicode';
+    font-weight: 500;
+    font-size: 18px;       
+}
+
+.nodecoration{
+    text-decoration: none;
+    color: aliceblue;
+}
+/* .men{
+    border-bottom: 5px solid rgb(5, 242, 226);
+    line-height: 110px;
+} */
+.fa-magnifying-glass{
+    color: white;
+    background-color: black;
+    /* text-decoration: none; */
+}
+.magnifying{
+    display: inline;
+    /* background-color: bisque; */
+    
+}
+.SearchBar
+{
+    border: 2px solid white;
+    border-radius: 4px;
+    width: 255px;
+    
+}
+.searchplaceholder{
+    width: 200px;
+}
+
+.signin{
+    color: white;
+}
+
+.mode{
+    color: white;
+    font-family:  'Lucida Sans Unicode';
+    font-weight: 500;
+    font-size: 18px;
+}
+
+
+/* shopersection */
+.shopersection{
+    height: 2200px;
+    background-color: rgba(0, 0, 0, 0.821) ;
+    
+}
+    
+.box1,.box2,.box3{
+    display: flex;
+    height: 650px;
+    
+    
+    justify-content: space-evenly;
+    align-items: center;
+    margin:0 0px 0px 0px;
+}
+.itemsize{
+height: 600px;
+width: 30%;
+background-color: rgb(238, 233, 95);
+transition: box-shadow .15s ease-in-out;
+}
+
+.itemsize:hover{
+    
+    box-shadow: 0px 8px 30px lightslategray;
+    
+}
+
+
+
+.picture{
+    height: 65%;
+    width: 90%;
+    margin: 5%;
+}
+.item1image{
+    background-image: url(f1.png);
+    background-size: cover;
+    
+}
+.item2image{
+    background-image: url(f2.png);
+    background-size: cover;
+}
+
+.item3image{
+    background-image: url(f3.png);
+    background-size: cover;
+}
+.item4image{
+    background-image: url(cf1.png);
+    background-size: cover;
+}
+.item5image{
+    background-image: url(cf2.png);
+    background-size: cover;
+}
+.item6image{
+    background-image: url(cf3.png);
+    background-size: cover;
+}
+.item7image{
+    background-image: url(s1.png);
+    background-size: cover;
+}
+.item8image{
+    background-image: url(s2.png);
+    background-size: cover;
+}
+.item9image{
+    background-image: url(s3.png);
+    background-size: cover;
+}
+#firstheading{
+    padding-top: 40px;
+}
+.desc{
+    text-align: center;
+    font-weight: 600;
+}
+.desc button{
+    background-color: rgba(0, 0, 0,0.8);
+    color:white;
+    height: 30px;
+    width: 100px;
+    border-radius: 30px;
+    transition: box-shadow .15s ease-in-out;
+}
+.desc button:hover{
+    
+    box-shadow: 0px 8px 30px black;
+}

@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    
+}
+.logo{
+    background-image: url(VogueVault.jpg);
+    background-size: cover;
+    width: 158px;
+    height: 120px;
+    margin-right: 100px;
+}
+.nav{
+    display: flex;
+    height: 125px;
+    background-color: black;
+    
+}
+.navmargin{
+    margin-left: 80px;
+}
+.category
+{
+    display:flex;
+    align-items: center;
+    
+}
+.men ,.women,.children ,.signin{
+    font-family:  'Lucida Sans Unicode';
+    font-weight: 500;
+    font-size: 18px;       
+}
+
+.nodecoration{
+    text-decoration: none;
+    color: aliceblue;
+}
+.signin{
+    border-bottom: 5px solid rgb(5, 242, 226);
+    line-height: 110px;
+}
+.fa-magnifying-glass{
+    color: white;
+    
+    /* text-decoration: none; */
+}
+.magnifying{
+    display: inline;
+    background-color: black;
+    
+}
+.SearchBar
+{
+    border: 2px solid white;
+    border-radius: 4px;
+    width: 255px;
+    
+}
+.searchplaceholder{
+    width: 200px;
+}
+
+.signin{
+    color: white;
+}
+
+.mode{
+    color: white;
+    font-family:  'Lucida Sans Unicode';
+    font-weight: 500;
+    font-size: 18px;
+}
+
+
+/* after nav */
+
+body{
+    /* background-color: rgba(0, 0, 0, 0.821); */
+    /* background-color:#F1EF99; */
+    background-color: rgb(245, 245, 180);
+}
+.mainheading{
+    text-align: center;
+    margin: 10px ;
+    margin-bottom: 30px;
+    /* color: white; */
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    /* background-color:rgba(0, 0, 0, 0.821); */
+
+}
+.item{
+    /* background-color:rgb(238, 233, 95) ; */
+    width: 33%;
+    text-align: center;
+    border: 2px solid black;
+    
+}
